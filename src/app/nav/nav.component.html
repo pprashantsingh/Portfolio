@@ -1,0 +1,38 @@
+<nav>
+    <a
+      href="#"
+      [ngClass]="{ active: activeNav === '#' }"
+      (click)="setActiveNav('#')"
+    >
+      <span>🏠</span>
+    </a>
+    <a
+      href="#about"
+      [ngClass]="{ active: activeNav === '#about' }"
+      (click)="setActiveNav('#about')"
+    >
+      <span>👤</span>
+    </a>
+    <a
+      href="#experience"
+      [ngClass]="{ active: activeNav === '#experience' }"
+      (click)="setActiveNav('#experience')"
+    >
+      <span>📚</span>
+    </a>
+    <a
+      href="#services"
+      [ngClass]="{ active: activeNav === '#services' }"
+      (click)="setActiveNav('#services')"
+    >
+      <span>🛠️</span>
+    </a>
+    <a
+      href="#contact"
+      [ngClass]="{ active: activeNav === '#contact' }"
+      (click)="setActiveNav('#contact')"
+    >
+      <span>📧</span>
+    </a>
+  </nav>
+  
